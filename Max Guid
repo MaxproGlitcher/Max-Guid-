@@ -21,9 +21,9 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     }
 })
  ----------------------------------------------------------------------------------------------------------------------------------------
-   --Mise a jour 3.7
-     local update = Window:NewTab("Mise a jour 3.7")
-     local updateSection = update:NewSection("Mise à jour 3.7 le Script est toujours en développement")
+   --Mise a jour 3.8
+     local update = Window:NewTab("Mise a jour 3.8")
+     local updateSection = update:NewSection("Mise à jour 3.8 le Script est toujours en développement")
  
      local updateSection = update:NewSection("Rajout d'une cmds /goto au joueur")
  
@@ -40,6 +40,8 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
      local updateSection = update:NewSection("Une option pour avoir le volume de roblox en %")
 
      local updateSection = update:NewSection("J'ai refait le classement la Section Main")
+
+     local updateSection = update:NewSection("Rajout d'un script Hamster_ball ")
  
  ----------------------------------------------------------------------------------------------------------------------------------------
  
@@ -89,10 +91,13 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     MainSection:NewButton("Back Flip press x", "Makes you do gymnastics", function()
         loadstring(game:HttpGetAsync("https://pastebin.com/raw/DkGX5csJ"))()
     end)
+
+    MainSection:NewButton("Hamster_ball", "Code Hamster_ball", function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/sCQMY75u"))()
+    end)
      
      local MainSection = Main:NewSection("Section Visuelle script")
 
- 
      MainSection:NewButton("Qualiter Graphique","Script Qualiter Graphique", function()
          loadstring(game:HttpGet('https://pastebin.com/raw/hGkcVXZ8'))()
      end) 

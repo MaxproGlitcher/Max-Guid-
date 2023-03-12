@@ -21,9 +21,9 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     }
 })
  ----------------------------------------------------------------------------------------------------------------------------------------
-   --Mise a jour 3.8
-     local update = Window:NewTab("Mise a jour 3.8")
-     local updateSection = update:NewSection("Mise à jour 3.8 le Script est toujours en développement")
+   --Mise a jour 4.0
+     local update = Window:NewTab("Mise a jour 4.0")
+     local updateSection = update:NewSection("Mise à jour 4.0 le Script est toujours en développement")
  
      local updateSection = update:NewSection("Rajout d'une cmds /goto au joueur")
  
@@ -42,6 +42,10 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
      local updateSection = update:NewSection("J'ai refait le classement la Section Main")
 
      local updateSection = update:NewSection("Rajout d'un script Hamster_ball ")
+
+     local updateSection = update:NewSection("Auto rejoint après expulsion du clients")
+
+     local updateSection = update:NewSection("Script pour Désinfecter les fitchers de ton exploit")
  
  ----------------------------------------------------------------------------------------------------------------------------------------
  
@@ -123,6 +127,16 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
      MainSection:NewButton("Réinitialiser le personnage","Réinitialiser", function()
          loadstring(game:HttpGet('https://pastebin.com/raw/H71Y2f1J'))()
      end) 
+     
+     local MainSection = Main:NewSection("Code pour désinfecter les fitchers de ton exploit")
+
+     local MainSection = Main:NewSection("Contre les fitches mal attentionner")
+ 
+     MainSection:NewButton("Désinfecter de ton Exploit au cas de vérus","Code Disinfection", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/XzYTgRYm'))()
+    end) 
+
+    local MainSection = Main:NewSection("Pour balancer le menu de ecran visible et a le fermer")
 
      MainSection:NewKeybind("Toggle ui", "makes the gui invisible and visible ", Enum.KeyCode.RightAlt, function()
         Library:ToggleUI()
@@ -171,7 +185,13 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
         ServersSection:NewButton("Rejoin le même servers", "rejoin", function()
           loadstring(game:HttpGet('https://pastebin.com/raw/qnpkAepE'))()
        end)
- ----------------------------------------------------------------------------------------------------------------------------------------
+
+       
+       ServersSection:NewButton("Rejoint automatic après avoir été kick", "Code Auto Rejoint après une expulsion du clients", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/NfryqPUc'))()
+     end)
+
+      -----------------------------------------------------------------------------------------------------------------------------------------
     --Caméra 
      local Camera = Window:NewTab("Caméra")
      local CameraSection = Camera:NewSection("Caméra")

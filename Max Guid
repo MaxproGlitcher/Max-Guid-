@@ -21,31 +21,33 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     }
 })
  ----------------------------------------------------------------------------------------------------------------------------------------
-   --Mise a jour 4.0
-     local update = Window:NewTab("Mise a jour 4.0")
-     local updateSection = update:NewSection("Mise à jour 4.0 le Script est toujours en développement")
+   --Mise a jour 4.1
+     local update = Window:NewTab("Mise a jour 4.1")
+     local updateSection = update:NewSection("Mise à jour 4.1 le Script est toujours en développement")
  
-     local updateSection = update:NewSection("Rajout d'une cmds /goto au joueur")
+     local updateSection = update:NewSection("Rajout les Tp TweenService 2023-03-16")
  
-     local updateSection = update:NewSection("J'ai coder un chats logs pour voir les messages priver")
+     local updateSection = update:NewSection("")
  
-     local updateSection = update:NewSection("Un tout nouveaux chats troll crée par moi même")
+     local updateSection = update:NewSection("")
  
-     local updateSection = update:NewSection("Script pour voir les Ages des compts crée")
+     local updateSection = update:NewSection("")
 
-     local updateSection = update:NewSection("Pour importer des destination de spawn")
+     local updateSection = update:NewSection("")
 
-     local updateSection = update:NewSection("Une option pour reculer vers arrière")
+     local updateSection = update:NewSection("")
 
-     local updateSection = update:NewSection("Une option pour avoir le volume de roblox en %")
+     local updateSection = update:NewSection("")
 
-     local updateSection = update:NewSection("J'ai refait le classement la Section Main")
+     local updateSection = update:NewSection("")
 
-     local updateSection = update:NewSection("Rajout d'un script Hamster_ball ")
+     local updateSection = update:NewSection("")
 
-     local updateSection = update:NewSection("Auto rejoint après expulsion du clients")
+     local updateSection = update:NewSection("")
 
-     local updateSection = update:NewSection("Script pour Désinfecter les fitchers de ton exploit")
+     local updateSection = update:NewSection("")
+
+     local updateSection = update:NewSection("")
  
  ----------------------------------------------------------------------------------------------------------------------------------------
  
@@ -70,8 +72,12 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
         loadstring(game:HttpGetAsync("https://pastebin.com/raw/NpnX4Bk3"))()
      end)
  
-     MainSection:NewButton("Clik Tp","Script Clik Tp", function()
+     MainSection:NewButton("Clik TP","Script Clik Tp", function()
         loadstring(game:HttpGetAsync("https://pastebin.com/raw/kBXzsyVX"))()
+     end)
+
+     MainSection:NewButton("Press ctrl plus cliker pour se TP en TweenService","Script Clik Tp TweenService", function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/JXC7PBdG"))()
      end)
 
      MainSection:NewButton("press alt et clik ou tu veux pour suprimer","code pour delet", function()

@@ -21,13 +21,13 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     }
 })
  ----------------------------------------------------------------------------------------------------------------------------------------
-   --Mise a jour 4.1
-     local update = Window:NewTab("Mise a jour 4.1")
-     local updateSection = update:NewSection("Mise à jour 4.1 le Script est toujours en développement")
+   --Mise a jour 4.2
+     local update = Window:NewTab("Mise a jour 4.2")
+     local updateSection = update:NewSection("Mise à jour 4.2 le Script est toujours en développement")
  
      local updateSection = update:NewSection("Rajout les Tp TweenService 2023-03-16")
  
-     local updateSection = update:NewSection("")
+     local updateSection = update:NewSection("Rajout de pouvoir voir ceux qui rejoint dans la console")
  
      local updateSection = update:NewSection("")
  
@@ -119,6 +119,10 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
      MainSection:NewButton("Notification des joueurs qui rejoins","Notification", function()
          loadstring(game:HttpGet('https://pastebin.com/raw/i9DAkDD2'))()
      end) 
+
+     MainSection:NewButton("Faite Ctrl F9 pour voir les joueurs qui rejoint","rCode pour print tout les joueurs qui rejoit le servers", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/DqkkgZQt'))()
+    end)
     
     MainSection:NewButton("Faite Ctrl F9 pour voir les date des compts","ScriptFaite Ctrl F9 pour voir les date des compt", function()
         loadstring(game:HttpGet('https://pastebin.com/raw/wxZcDfiZ'))()

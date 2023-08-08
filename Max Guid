@@ -21,7 +21,7 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     }
 })
  ----------------------------------------------------------------------------------------------------------------------------------------
-   --Mise a jour 4.2
+   --Mise a jour 4.3
      local update = Window:NewTab("Mise a jour 4.3")
      local updateSection = update:NewSection("Mise à jour 4.3 le Script est toujours en développement")
  

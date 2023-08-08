@@ -21,9 +21,9 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     }
 })
  ----------------------------------------------------------------------------------------------------------------------------------------
-   --Mise a jour 4.3
-     local update = Window:NewTab("Mise a jour 4.3")
-     local updateSection = update:NewSection("Mise à jour 4.3 le Script est toujours en développement")
+   --Mise a jour 4.4
+     local update = Window:NewTab("Mise a jour 4.4")
+     local updateSection = update:NewSection("Mise à jour 4.4 le Script est toujours en développement")
  
      local updateSection = update:NewSection("Rajout les Tp TweenService 2023-03-16")
  
@@ -31,9 +31,9 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
  
      local updateSection = update:NewSection("J'ai Fixer le code importer les collision 08-08-2023")
  
-     local updateSection = update:NewSection("")
+     local updateSection = update:NewSection("Rajout du Nouveaux Dex , et le vieux Dex 08-08-2023")
 
-     local updateSection = update:NewSection("")
+     local updateSection = update:NewSection("Rajout du simple-Spy-V3 08-08-2023")
 
      local updateSection = update:NewSection("")
 
@@ -239,6 +239,19 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     MenuAdminSection:NewButton("Cmd-x", "Cmds", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
     end)
+
+    MenuAdminSection:NewButton("Simple-Spy-V3", "Simple-Spy-V3--Code", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/SimpleSpyV3/main.lua",true))()
+    end)
+
+    MenuAdminSection:NewButton("Le Nouveaux Dex Gui", "Menu Dex Gui--Code", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
+    end)
+
+    MenuAdminSection:NewButton("Le Vieux Dex Gui", "Le vieux Dex Menu Dex Gui--Code", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua"))()
+    end)
+---------
 ----------------------------------------------------------------------------------------------------------------------------------------
      --Chats
      local Chats = Window:NewTab("Chats")

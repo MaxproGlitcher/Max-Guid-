@@ -22,14 +22,14 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
 })
  ----------------------------------------------------------------------------------------------------------------------------------------
    --Mise a jour 4.2
-     local update = Window:NewTab("Mise a jour 4.2")
-     local updateSection = update:NewSection("Mise à jour 4.2 le Script est toujours en développement")
+     local update = Window:NewTab("Mise a jour 4.3")
+     local updateSection = update:NewSection("Mise à jour 4.3 le Script est toujours en développement")
  
      local updateSection = update:NewSection("Rajout les Tp TweenService 2023-03-16")
  
      local updateSection = update:NewSection("Rajout de pouvoir voir ceux qui rejoint dans la console")
  
-     local updateSection = update:NewSection("")
+     local updateSection = update:NewSection("J'ai Fixer le code importer les collision 08-08-2023")
  
      local updateSection = update:NewSection("")
 

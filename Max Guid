@@ -21,13 +21,13 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     }
 })
  ----------------------------------------------------------------------------------------------------------------------------------------
-   --Mise a jour 4.5
-     local update = Window:NewTab("Mise a jour 4.5")
-     local updateSection = update:NewSection("Mise à jour 4.5 le Script est toujours en développement")
+   --Mise a jour 4.6
+     local update = Window:NewTab("Mise a jour 4.6")
+     local updateSection = update:NewSection("Mise à jour 4.6 le Script est toujours en développement")
  
      local updateSection = update:NewSection("J'ai réparer le code Free cam 2023-08-10")
  
-     local updateSection = update:NewSection("Rajout de pouvoir voir ceux qui rejoint dans la console")
+     local updateSection = update:NewSection("J'ai réparer le code pour delet des morceaux la map")
  
      local updateSection = update:NewSection("J'ai Fixer le code importer les collision 08-08-2023")
  
@@ -80,7 +80,7 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
         loadstring(game:HttpGetAsync("https://pastebin.com/raw/JXC7PBdG"))()
      end)
 
-     MainSection:NewButton("press alt et clik ou tu veux pour suprimer","code pour delet", function()
+     MainSection:NewButton("press G pour suprimer des morceaux la map","code pour delet", function()
         loadstring(game:HttpGet('https://pastebin.com/raw/kBT0EJbb'))()
     end)
 

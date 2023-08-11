@@ -21,11 +21,11 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     }
 })
  ----------------------------------------------------------------------------------------------------------------------------------------
-   --Mise a jour 4.4
-     local update = Window:NewTab("Mise a jour 4.4")
-     local updateSection = update:NewSection("Mise à jour 4.4 le Script est toujours en développement")
+   --Mise a jour 4.5
+     local update = Window:NewTab("Mise a jour 4.5")
+     local updateSection = update:NewSection("Mise à jour 4.5 le Script est toujours en développement")
  
-     local updateSection = update:NewSection("Rajout les Tp TweenService 2023-03-16")
+     local updateSection = update:NewSection("J'ai réparer le code Free cam 2023-08-10")
  
      local updateSection = update:NewSection("Rajout de pouvoir voir ceux qui rejoint dans la console")
  
@@ -206,12 +206,8 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
      local Camera = Window:NewTab("Caméra")
      local CameraSection = Camera:NewSection("Caméra")
  
-     CameraSection:NewButton("Caméra", "Caméra script", function()
-           loadstring(game:HttpGet('https://raw.githubusercontent.com/Gravity-0/CCAMERAv4.0/mainB/CCAMv5.0.lua'))()
-     end)
- 
      CameraSection:NewButton("Free cam shift + p","free cam code ", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Robobo2022/script/main/Freecam.lua'))()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/mfrMFUcJ"))()
     end) 
 
  ----------------------------------------------------------------------------------------------------------------------------------------

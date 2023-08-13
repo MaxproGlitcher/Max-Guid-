@@ -21,16 +21,18 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     }
 })
  ----------------------------------------------------------------------------------------------------------------------------------------
-   --Mise a jour 4.6
-     local update = Window:NewTab("Mise a jour 4.6")
-     local updateSection = update:NewSection("Mise à jour 4.6 le Script est toujours en développement")
- 
+   --Mise a jour 4.7
+     local update = Window:NewTab("Mise a jour 4.7")
+     local updateSection = update:NewSection("Mise à jour 4.7 le Script est toujours en développement")
+     
+     local updateSection = update:NewSection("Rajout Option pour les texts en couleurs 08-13-2023")
+     
      local updateSection = update:NewSection("J'ai réparer le code Free cam 2023-08-10")
  
      local updateSection = update:NewSection("J'ai réparer le code pour delet des morceaux la map")
  
      local updateSection = update:NewSection("J'ai Fixer le code importer les collision 08-08-2023")
- 
+     
      local updateSection = update:NewSection("Rajout du Nouveaux Dex , et le vieux Dex 08-08-2023")
 
      local updateSection = update:NewSection("Rajout du simple-Spy-V3 08-08-2023")
@@ -47,7 +49,6 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
 
      local updateSection = update:NewSection("")
 
-     local updateSection = update:NewSection("")
  
  ----------------------------------------------------------------------------------------------------------------------------------------
  
@@ -251,8 +252,16 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
 ----------------------------------------------------------------------------------------------------------------------------------------
      --Chats
      local Chats = Window:NewTab("Chats")
-     local ChatsSection = Chats:NewSection("Chats")
+     local ChatsSection = Chats:NewSection("Section Chats")
      
+     local ChatsSection = Chats:NewSection("Pour avoir les messages en couleur")
+
+      ChatsSection:NewButton("Clik pour avoir les messages en couleurs", "Code pour avoir les messages en couleurs", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/MVFY2Mx4'))()
+     end)
+
+    local ChatsSection = Chats:NewSection("Pour voir les messages priver des autres")
+
      ChatsSection:NewButton("ChatsLogs pour voir les messages priver", "ChatsLogs code", function()
         loadstring(game:HttpGet('https://pastebin.com/raw/xPMTHr4R'))()
      end)

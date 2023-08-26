@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib(string.format("Guid By MaxproGlitcher                Discord: MaxproGlitcher#6199", script), "DarkTheme")
+local Window = Library.CreateLib(string.format("Guid By MaxproGlitcher                            Discord: maxproglitcher", script), "DarkTheme")
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -21,13 +21,17 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     }
 })
  ----------------------------------------------------------------------------------------------------------------------------------------
-   --Mise a jour 4.7
-     local update = Window:NewTab("Mise a jour 4.7")
-     local updateSection = update:NewSection("Mise à jour 4.7 le Script est toujours en développement")
+   --Mise a jour 4.8
+     local update = Window:NewTab("Mise a jour 4.8")
+     local updateSection = update:NewSection("Mise à jour 4.8 le Script est toujours en développement")
+     
+     local updateSection = update:NewSection("Le script ANTI-AFK a été amiliorer 08-26-2023")
+     
+     local updateSection = update:NewSection("Le script Spy a été amiliorer 08-26-2023")
      
      local updateSection = update:NewSection("Rajout Option pour les texts en couleurs 08-13-2023")
      
-     local updateSection = update:NewSection("J'ai réparer le code Free cam 2023-08-10")
+     local updateSection = update:NewSection("J'ai réparer le code Free cam 08-10-2023")
  
      local updateSection = update:NewSection("J'ai réparer le code pour delet des morceaux la map")
  
@@ -277,7 +281,7 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
       local DiscordSection = Discord:NewSection("Discord")
 
      DiscordSection:NewButton('Mon nom Discord clik pour copier','iiwashere',function()
-        setclipboard'MaxproGlitcher#6199'
+        setclipboard'maxproglitcher'
      end)
 
      DiscordSection:NewButton("Copier discord","Lien discord", function()

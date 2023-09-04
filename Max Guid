@@ -21,9 +21,11 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     }
 })
  ----------------------------------------------------------------------------------------------------------------------------------------
-   --Mise a jour 4.8
-     local update = Window:NewTab("Mise a jour 4.8")
-     local updateSection = update:NewSection("Mise à jour 4.8 le Script est toujours en développement")
+   --Mise a jour 4.9
+     local update = Window:NewTab("Mise a jour 4.9")
+     local updateSection = update:NewSection("Mise à jour 4.9 le Script est toujours en développement")
+    
+    local updateSection = update:NewSection("Nouveau Gui Tp au joueurs TweenService 09-04-2023")
      
      local updateSection = update:NewSection("Le script ANTI-AFK a été amiliorer 08-26-2023")
      
@@ -187,6 +189,10 @@ Notification.Notify("Notifications", "Script by MaxproGlitcher", "rbxassetid://1
     PlayerSection:NewButton("Tape dans le chats /goto et le nom du joueur","code /goto téleportation", function()
         loadstring(game:HttpGet('https://pastebin.com/raw/ERd0gf7i'))()
     end) 
+
+    PlayerSection:NewButton("Menu pour se Tp au joueurs en TweenService","Code Menu pour Tp au joueurs en TweenService", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/CPS3jfgT'))()
+    end)
  ----------------------------------------------------------------------------------------------------------------------------------------
      --Servers
      local Servers = Window:NewTab("Servers")
